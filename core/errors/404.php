@@ -7,4 +7,5 @@
  */
 
 echo "Strona błędu 404."
+
 ?>
