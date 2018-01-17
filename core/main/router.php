@@ -14,7 +14,7 @@ class router{
 
     public function __construct()
     {
-        $config = registrt::register("config");
+        $config = registry::register("config");
 
         if(!isset($_GET['page'])){
             $path = $config->default_controller;
