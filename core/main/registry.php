@@ -14,7 +14,7 @@ class registry
     {
         if (empty(self::$registered[$object]))
         {
-            if (!params)
+            if (!$params)
             {
                 self::$registered[$object] = new $object();
             }
