@@ -27,4 +27,5 @@ class registry
         return self::$registered[$object];
     }
 }
+
 ?>
