@@ -9,7 +9,7 @@
 class main{
     static public function _templateLoader($controller, $template){
         $config = registry::register("config");
-        $templatefile = $config->view_path.$controller."/".$template."php";
+        $templatefile = $config->view_path.$controller."/".$template.".php";
 
         if(file_exists($templatefile)){
             include_once($templatefile);
